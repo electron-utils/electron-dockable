@@ -11,3 +11,7 @@ npm install electron-dockable
 ## Usage
 
 TODO
+
+## License
+
+MIT © 2016 Johnny Wu
