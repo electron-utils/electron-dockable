@@ -1,0 +1,23 @@
+{
+  "name": "electron-dockable",
+  "version": "1.0.0",
+  "description": "dockable panel for electron",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jwu/electron-dockable.git"
+  },
+  "keywords": [
+    "Electron",
+    "Dockable"
+  ],
+  "author": "jwu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jwu/electron-dockable/issues"
+  },
+  "homepage": "https://github.com/jwu/electron-dockable#readme"
+}

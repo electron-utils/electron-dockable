@@ -1,0 +1,37 @@
+# mac-osx files
+.DS_store
+profile
+
+# visual-studio files
+*.ncb *.sln
+*.suo
+*.vcproj.*.user
+*.pdb
+*.idb
+*.csproj
+*.csproj.user
+
+# exvim files
+*.err
+*.exvim
+.exvim.*/
+
+# webstorm
+.idea
+
+# log files
+*.log
+
+# project files
+node_modules/
+bower_components/
+app-examples/
+package-examples/
+regl-playground/
+mathbox-playground/
+mojs-playground/
+d3-playground/
+demo/
+
+# test files
+.settings/
