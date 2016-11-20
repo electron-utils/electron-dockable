@@ -11,6 +11,9 @@ profile
 *.csproj
 *.csproj.user
 
+# visual-studio code
+.vscode/
+
 # exvim files
 *.err
 *.exvim
@@ -25,13 +28,3 @@ profile
 # project files
 node_modules/
 bower_components/
-app-examples/
-package-examples/
-regl-playground/
-mathbox-playground/
-mojs-playground/
-d3-playground/
-demo/
-
-# test files
-.settings/

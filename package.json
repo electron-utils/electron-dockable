@@ -4,6 +4,7 @@
   "description": "dockable panel for electron",
   "main": "index.js",
   "scripts": {
+    "start": "node run.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/jwu/electron-dockable/issues"
   },
-  "homepage": "https://github.com/jwu/electron-dockable#readme"
+  "homepage": "https://github.com/jwu/electron-dockable",
+  "dependencies": {
+    "electron": "1.4.7"
+  }
 }
