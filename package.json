@@ -1,11 +1,11 @@
 {
   "name": "electron-dockable",
   "version": "1.0.0",
-  "description": "dockable panel for electron",
+  "description": "Dockable ui framework for Electron",
   "main": "index.js",
   "scripts": {
     "start": "node run.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/*.spec.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,10 @@
   },
   "homepage": "https://github.com/jwu/electron-dockable",
   "dependencies": {
-    "electron": "1.4.7"
+  },
+  "devDependencies": {
+    "electron": "^1.4.15",
+    "mocha": "^3.2.0",
+    "spectron": "3.4.1"
   }
 }
