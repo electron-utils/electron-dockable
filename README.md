@@ -5,12 +5,20 @@
 [![Dependency Status](https://david-dm.org/electron-utils/electron-dockable.svg)](https://david-dm.org/electron-utils/electron-dockable)
 [![devDependency Status](https://david-dm.org/electron-utils/electron-dockable/dev-status.svg)](https://david-dm.org/electron-utils/electron-dockable#info=devDependencies)
 
-Dockable ui framework for Electron.
+**Work in progress...**
+
+Dockable ui framework for Electron. Use the [Custom Element v1](https://developers.google.com/web/fundamentals/getting-started/primers/customelements) & [Shadow DOM v1](https://developers.google.com/web/fundamentals/getting-started/primers/shadowdom).
 
 ## Install
 
 ```bash
 npm install --save electron-dockable
+```
+
+## Run Examples
+
+```bash
+npm start ./examples/${name}
 ```
 
 ## Usage
