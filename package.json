@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jwu/electron-dockable.git"
+    "url": "git+https://github.com/electron-utils/electron-dockable.git"
   },
   "keywords": [
     "Electron",
@@ -18,14 +18,18 @@
   "author": "jwu",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jwu/electron-dockable/issues"
+    "url": "https://github.com/electron-utils/electron-dockable/issues"
   },
-  "homepage": "https://github.com/jwu/electron-dockable",
+  "homepage": "https://github.com/electron-utils/electron-dockable",
   "dependencies": {
+    "async": "^2.1.4",
+    "electron-drag-drop": "^1.0.1",
+    "electron-ipc-plus": "^1.2.3",
+    "electron-panel": "^1.1.0"
   },
   "devDependencies": {
     "electron": "^1.4.15",
     "mocha": "^3.2.0",
-    "spectron": "3.4.1"
+    "spectron": "^3.6.0"
   }
 }
