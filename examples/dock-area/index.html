@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Basic</title>
+    <title>Dock Area</title>
     <style>
       body {
         position: absolute;
@@ -15,19 +15,43 @@
         color: #09f;
       }
 
-      ui-dock-area {
+      .content {
+        position: relative;
+        flex: 1;
         border: 1px solid black;
         padding: 5px;
+
+        display: flex;
+        flex-direction: column;
+      }
+
+      .box {
+        border: 1px solid black;
+        padding: 5px;
+
+        position: absolute;
+        top: 0; bottom: 0; left: 0; right: 0;
       }
     </style>
   </head>
 
   <body>
-    <h2>Basic</h2>
-    <ui-dock-area style="flex: 1">
-      <ui-dock-area style="flex: 1">Foo</ui-dock-area>
-      <ui-dock-area style="flex: 1">Bar</ui-dock-area>
-    </ui-dock-area>
+    <h2>Dock Area</h2>
+    <div class="content">
+      <ui-dock-area style="flex: 1;">
+        <ui-dock-area style="flex: 1">
+          <div class="box">Foo</div>
+        </ui-dock-area>
+        <ui-dock-area style="flex: 2" row>
+          <ui-dock-area style="flex: 1">
+            <div class="box">Bar 01</div>
+          </ui-dock-area>
+          <ui-dock-area style="flex: 1">
+            <div class="box">Bar 02</div>
+          </ui-dock-area>
+        </ui-dock-area>
+      </ui-dock-area>
+    </div>
 
     <script>
       require('../../index');
