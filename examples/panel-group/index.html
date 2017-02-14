@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Panel Group</title>
+    <style>
+      body {
+        position: absolute;
+        top: 0; bottom: 0; left: 0; right: 0;
+        display: flex;
+        flex-direction: column;
+      }
+
+      h2 {
+        color: #09f;
+      }
+
+      .content {
+        position: relative;
+        flex: 1;
+        padding: 5px;
+
+        display: flex;
+        flex-direction: column;
+      }
+
+      .box {
+        padding: 5px;
+
+        position: absolute;
+        top: 0; bottom: 0; left: 0; right: 0;
+      }
+    </style>
+
+    <script>
+      require('../../index');
+    </script>
+  </head>
+
+  <body>
+    <h2>Panel Group</h2>
+    <div class="content">
+      <ui-panel-group style="flex: 1">
+        <div class="box" name="Alpha">Alpha</div>
+        <div class="box" name="Beta">Beta</div>
+        <div class="box" name="Cake">Cake</div>
+        <div class="box" name="Duck">Duck</div>
+        <div class="box" name="Effect">Effect</div>
+        <div class="box" name="Fear">Fear</div>
+      </ui-panel-group>
+    </div>
+  </body>
+</html>
