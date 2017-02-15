@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Basic</title>
+    <title>Workspace</title>
     <style>
       body {
         position: absolute;
@@ -14,11 +14,26 @@
       h2 {
         color: #09f;
       }
+
+      .content {
+        position: relative;
+        flex: 1;
+        padding: 5px;
+
+        display: flex;
+        flex-direction: column;
+      }
     </style>
+
+    <script>
+      require('../../index');
+    </script>
   </head>
 
   <body>
-    <h2>Basic</h2>
-    <ui-workspace></ui-workspace>
+    <h2>Workspace</h2>
+    <div class="content">
+      <ui-workspace style="flex: 1"></ui-workspace>
+    </div>
   </body>
 </html>
