@@ -5,7 +5,7 @@ module.exports = {
     :host {
       .layout-vertical();
 
-      margin: 5px;
+      margin: 1px;
       box-sizing: border-box;
       background: #333;
       color: #888;

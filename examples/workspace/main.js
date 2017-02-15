@@ -21,14 +21,26 @@ app.on('ready', function () {
           ],
         },
         {
-          type: 'panel-group',
-          height: 300,
-          active: 1,
+          type: 'dock-area-h',
           children: [
-            { id: 'bar', src: 'app://panels/bar.js'},
-            { id: 'bar-02', src: 'app://panels/bar.js'}
+            {
+              type: 'panel-group',
+              active: 1,
+              children: [
+                { id: 'bar', src: 'app://panels/bar.js'},
+                { id: 'bar-02', src: 'app://panels/bar.js'}
+              ],
+            },
+            {
+              type: 'panel-group',
+              width: 100,
+              active: 0,
+              children: [
+                { id: 'bar', src: 'app://panels/bar.js'},
+              ],
+            },
           ],
-        }
+        },
       ]
     }
   });
