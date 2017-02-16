@@ -28,15 +28,14 @@ app.on('ready', function () {
               active: 1,
               children: [
                 { id: 'bar', src: 'app://panels/bar.js'},
-                { id: 'bar-02', src: 'app://panels/bar.js'}
+                { id: 'alpha', src: 'app://panels/alpha.js'}
               ],
             },
             {
               type: 'panel-group',
-              width: 100,
               active: 0,
               children: [
-                { id: 'bar', src: 'app://panels/bar.js'},
+                { id: 'bar-02', src: 'app://panels/bar.js'},
               ],
             },
           ],
