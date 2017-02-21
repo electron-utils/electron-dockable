@@ -1,9 +1,8 @@
 'use strict';
 
-const {app, BrowserWindow} = require('electron');
+const {app} = require('electron');
 const protocols = require('electron-protocols');
 const dockable = require('../../index');
-let win;
 
 protocols.register('app', protocols.basepath(app.getAppPath()));
 
@@ -44,13 +43,10 @@ app.on('ready', function () {
     }
   });
 
-  // TODO:
-  // dockable.run();
-
-  win = new BrowserWindow({
+  //
+  dockable.windows.restore(`file://${__dirname}/index.html`, {
     center: true,
     width: 400,
     height: 600,
   });
-  win.loadURL('file://' + __dirname + '/index.html');
 });

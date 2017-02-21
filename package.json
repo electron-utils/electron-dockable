@@ -22,11 +22,12 @@
   },
   "homepage": "https://github.com/electron-utils/electron-dockable",
   "dependencies": {
-    "async": "^2.1.4",
+    "async": "^2.1.5",
     "electron-drag-drop": "^1.0.2",
     "electron-ipc-plus": "^1.3.3",
-    "electron-panel": "^1.3.1",
-    "electron-profile": "^1.0.0"
+    "electron-panel": "^1.3.2",
+    "electron-profile": "^1.0.1",
+    "electron-window-plus": "^1.2.0"
   },
   "devDependencies": {
     "electron": "^1.6.0",
