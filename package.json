@@ -30,7 +30,7 @@
     "electron-window-plus": "^1.2.0"
   },
   "devDependencies": {
-    "electron": "^1.6.0",
+    "electron": "^1.6.1",
     "mocha": "^3.2.0",
     "spectron": "^3.6.0"
   }
