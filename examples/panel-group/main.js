@@ -1,6 +1,7 @@
 'use strict';
 
 const {app, BrowserWindow} = require('electron');
+const {css} = require('../../index');
 let win;
 
 app.on('ready', function () {
@@ -9,5 +10,9 @@ app.on('ready', function () {
     width: 400,
     height: 600,
   });
-  win.loadURL('file://' + __dirname + '/index.html');
+  win.loadURL(`file://${__dirname}/index.html`);
+
+  win.webContents.on('dom-ready', () => {
+    win.webContents.insertCSS(css);
+  });
 });
