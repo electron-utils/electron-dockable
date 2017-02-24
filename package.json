@@ -1,6 +1,6 @@
 {
   "name": "electron-dockable",
-  "version": "1.0.0",
+  "version": "0.9.0",
   "description": "Dockable ui framework for Electron",
   "main": "index.js",
   "scripts": {
