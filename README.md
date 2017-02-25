@@ -9,7 +9,7 @@
 
   - [x] dock and undock in single page workspace
   - [ ] pop out and dock in a panel
-  - [ ] save and restore dock layout
+  - [x] save and restore dock layout
   - [ ] ui-dock-toolbar
   - [ ] ui-dock-panel (single panel, no tab-bar)
   - [ ] floating panel in workspace (always on top, set as child window in BrowserWindow)
