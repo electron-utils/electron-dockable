@@ -24,8 +24,8 @@
   "dependencies": {
     "electron-drag-drop": "^1.0.2",
     "electron-ipc-plus": "^1.3.3",
-    "electron-panel": "^1.3.2",
-    "electron-profile": "^1.0.1",
+    "electron-panel": "^1.3.3",
+    "electron-profile": "^1.0.3",
     "electron-window-plus": "^1.3.1"
   },
   "devDependencies": {
