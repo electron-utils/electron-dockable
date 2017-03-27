@@ -121,7 +121,8 @@ app.on('ready', function () {
 
 ## Documentation
 
-TODO
+  - TODO
+  - [Known Issues](./docs/known-issues.md)
 
 ## License
 
