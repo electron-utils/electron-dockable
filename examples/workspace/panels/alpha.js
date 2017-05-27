@@ -1,6 +1,8 @@
 'use strict';
 
 module.exports = {
+  name: 'Alpha Yeah!',
+
   style: `
     :host {
       .layout-vertical();

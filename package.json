@@ -1,6 +1,6 @@
 {
   "name": "electron-dockable",
-  "version": "0.9.4",
+  "version": "0.9.5",
   "description": "Dockable ui framework for Electron",
   "main": "index.js",
   "scripts": {
@@ -25,7 +25,7 @@
     "clean-css": "^4.1.3",
     "electron-drag-drop": "^1.0.3",
     "electron-ipc-plus": "^1.3.3",
-    "electron-panel": "^1.3.9",
+    "electron-panel": "^1.3.10",
     "electron-platform": "^1.2.0",
     "electron-profile": "^1.0.4",
     "electron-window-plus": "^1.3.4"
