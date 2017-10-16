@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@types/node@^7.0.18":
-  version "7.0.22"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-7.0.22.tgz#4593f4d828bdd612929478ea40c67b4f403ca255"
+"@types/node@^8.0.24":
+  version "8.0.34"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-8.0.34.tgz#55f801fa2ddb2a40dd6dfc15ecfe1dde9c129fe9"
 
 ajv@^4.9.1:
   version "4.11.5"
@@ -358,9 +358,9 @@ electron-download@^3.0.1, electron-download@^3.1.0:
     semver "^5.3.0"
     sumchecker "^1.2.0"
 
-electron-drag-drop@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/electron-drag-drop/-/electron-drag-drop-1.0.3.tgz#4ed9533dcbd827ed44bb5f589c5ac4294ee2bf01"
+electron-drag-drop@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/electron-drag-drop/-/electron-drag-drop-1.1.0.tgz#191218b7ba05aa573d253ef9e9c0f7f689a099b1"
   dependencies:
     electron-ipc-plus "^1.3.3"
     electron-platform "^1.2.0"
@@ -427,11 +427,11 @@ electron-window-plus@^1.3.4:
     electron-protocols "^1.0.4"
     uuid "^3.0.1"
 
-electron@^1.7.1:
-  version "1.7.1"
-  resolved "https://registry.yarnpkg.com/electron/-/electron-1.7.1.tgz#a93b8abd1fd6df794839d8602903aacbce74d388"
+electron@^1.8.1:
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/electron/-/electron-1.8.1.tgz#19b6f39f2013e204a91a60bc3086dc7a4a07ed88"
   dependencies:
-    "@types/node" "^7.0.18"
+    "@types/node" "^8.0.24"
     electron-download "^3.0.1"
     extract-zip "^1.0.3"
 
